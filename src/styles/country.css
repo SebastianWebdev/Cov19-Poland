@@ -1,0 +1,35 @@
+.country_container {
+  flex-basis: 100%;
+  margin: 20px 0;
+  padding: 10px 20px;
+  text-align: center;
+  color: rgb(188, 191, 204);
+  font-size: 2.4rem;
+}
+.stats {
+  margin: 0;
+  padding: 0;
+  font-size: 2.6rem;
+  color: rgb(245, 83, 83);
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  margin: 0 10px;
+}
+.item h2 {
+  margin: 0;
+}
+.row-column {
+  flex-direction: column;
+}
+.stats,
+.item,
+.tittle {
+  text-transform: uppercase;
+}
+.item h2 {
+  font-size: 1.8rem;
+}
