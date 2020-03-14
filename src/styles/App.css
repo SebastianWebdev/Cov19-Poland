@@ -18,6 +18,15 @@
 .sub__tittle {
   margin: 0;
 }
+.icons__info {
+  position: absolute;
+  bottom: 0;
+  color: rgb(188, 191, 204);
+}
+.icons__info a {
+  color: rgb(188, 191, 204);
+  margin: 0 5px;
+}
 @media (max-width: 600px) {
   :root {
     font-size: 8px;

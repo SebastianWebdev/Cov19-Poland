@@ -41,6 +41,19 @@ function App() {
       <h1 className="main__tittle">SARS-CoV-2 w Polsce</h1>
       <p className="sub__tittle"> stan na dzień : {date}</p>
       {countries}
+      <div className="icons__info">
+        Icons made by
+        <a
+          href="https://www.flaticon.com/authors/vectors-market"
+          title="Vectors Market"
+        >
+          Vectors Market
+        </a>
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon">
+          www.flaticon.com
+        </a>
+      </div>
     </div>
   );
 }
